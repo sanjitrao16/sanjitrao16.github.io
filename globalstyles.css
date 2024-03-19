@@ -1,0 +1,47 @@
+/* Global Styles- Applied to whole document */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Galdeano, sans-serif;
+}
+
+/* Declaring Variables */
+
+:root {
+  --primary-color: #151618;
+  --secondary-color: #e8e8e8;
+  --accent-color-1: #80f9ff;
+  --accent-color-2: ;
+  --bgcolor: #110f10;
+  --transition-time: 0.3s;
+}
+
+/*Scroll-bar styles */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #151618;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 5px;
+  transition: all var(--transition-time) ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #b9b9b9;
+}
+
+section .title {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 70px;
+  margin-bottom: 120px;
+  text-transform: uppercase;
+}

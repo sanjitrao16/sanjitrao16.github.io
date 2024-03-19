@@ -1,0 +1,70 @@
+/* Styles */
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  background-color: var(--bgcolor);
+}
+
+header .logo {
+  position: relative;
+  right: 35px;
+  transition: all 0.3s ease;
+}
+
+nav ul li {
+  list-style-type: none;
+  transition: all 0.3s ease;
+}
+
+nav ul li a {
+  font-family: Encode Sans Condensed, sans-serif;
+  font-weight: 300;
+}
+
+header nav {
+  position: relative;
+  left: 90px;
+}
+
+header nav ul {
+  display: flex;
+  gap: 65px;
+  align-items: center;
+}
+
+header .navbar-cta {
+  position: relative;
+  right: 110px;
+  font-family: Encode Sans Condensed, sans-serif;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  background-color: var(--accent-color-1);
+  border-radius: 8px;
+  color: var(--primary-color);
+  transition: all 0.3s ease;
+}
+
+nav ul li a,
+.navbar-cta {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+/* Psuedo Classes and Transitions */
+
+nav ul li:hover {
+  opacity: 0.75;
+  transform: scale(1.05);
+}
+
+.navbar-cta:hover {
+  background-color: #63cacf;
+}
+
+header .logo:hover {
+  filter: brightness(86%);
+  transform: scale(1.015);
+}

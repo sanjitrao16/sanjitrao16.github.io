@@ -1,0 +1,35 @@
+footer {
+  background-color: #151618;
+  padding: 1.5rem;
+}
+
+footer > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .media {
+  flex-direction: row;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+footer .media img {
+  filter: invert(1) opacity(0.9);
+  transform: all 0.3s ease;
+}
+
+footer .copyrights {
+  color: #e8e8e8;
+}
+
+footer .copyrights span {
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+footer .media img:hover {
+  transform: scale(1.1);
+}

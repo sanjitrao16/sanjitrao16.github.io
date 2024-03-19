@@ -1,0 +1,129 @@
+/* Styles */
+
+.hero {
+  background-image: url(Assets/Images/Background.jpg);
+  background-attachment: fixed;
+  background-position: 0px 80px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #110f10;
+  height: 648px;
+}
+
+.hero .profile-content img {
+  height: 500px;
+  width: 500px;
+  position: relative;
+  top: 68px;
+  left: 23px;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.main-content {
+  align-self: center;
+  color: var(--secondary-color);
+}
+
+.main-content p small,
+.main-content span {
+  color: #8b8b8b;
+  font-size: 21px;
+}
+
+.main-content p small {
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.main-content p {
+  margin-bottom: 10px;
+}
+
+.main-content .hero-title {
+  font-size: 80px;
+}
+
+.main-content .hero-cta,
+.main-content .resume {
+  font-family: Hammersmith One;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.main-content .call-to-action {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-top: 2.5rem;
+  margin-left: 34px;
+}
+
+.main-content .wrapper-hero-cta {
+  position: relative;
+  display: grid;
+}
+
+.main-content .hero-cta {
+  color: var(--primary-color);
+  background-color: var(--accent-color-1);
+  padding: 0.5rem 2rem;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.main-content .resume {
+  color: var(--secondary-color);
+  padding: 0.5rem 2rem;
+  border-radius: 10px;
+  border: 2px solid var(--secondary-color);
+  transition: all 0.3s ease;
+}
+
+.hero .social-media {
+  grid-column: 1/3;
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}
+
+.hero .social-media .media {
+  filter: invert(1);
+  transition: transform var(--transition-time) ease;
+}
+
+/* Psuedo Classes and Transitions */
+
+.main-content .resume:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.main-content .hero-cta:hover {
+  transform: scale(1.05);
+}
+
+.hero .social-media .media:hover {
+  transform: scale(1.15);
+  opacity: 0.88;
+}
+
+.hero .social-media .media:active {
+  opacity: 0.45;
+}
+
+.main-content .resume:active {
+  transform: scale(0.9);
+}
+
+.main-content .hero-cta:active {
+  transform: scale(0.95);
+}
+
+.hero .main-content p::selection,
+.hero .main-content p small::selection {
+  background-color: black;
+}

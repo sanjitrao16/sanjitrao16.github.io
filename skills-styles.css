@@ -1,0 +1,87 @@
+.skills {
+  background-image: url(Assets/Images/Background-2.jpg);
+  background-size: cover;
+  background-position: left center;
+  height: 770px;
+}
+
+.skills .title {
+  margin-bottom: 100px;
+}
+
+.skills .skills-grid {
+  width: 100%;
+  height: 650px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.skills-grid > div {
+  width: 400px;
+  height: 546.5px;
+  border-top-left-radius: 55px;
+  border-bottom-right-radius: 55px;
+  border-top-right-radius: 35px;
+  border-bottom-left-radius: 35px;
+
+  background: linear-gradient(180deg, #333333, #201f1f);
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+}
+
+.skills-grid > div > .skill-icon {
+  width: 75px;
+  height: 75px;
+  background-color: #bebebe;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: all 0.3s ease;
+}
+
+.skill-icon img {
+  filter: brightness(50%);
+}
+
+.skills-grid > div .subtitle {
+  margin: 1.5rem 0rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-family: Hammersmith One, Galdeano;
+  text-align: center;
+  font-size: 24px;
+  color: #e8e8e8;
+  text-transform: uppercase;
+}
+
+.skills-grid > div .languages p {
+  margin: 24px 0;
+  width: 145%;
+  font-size: 18px;
+  color: #fff;
+  position: relative;
+  right: 50px;
+  padding: 0.5rem 1.5rem;
+  border-left: 5px solid #e8e8e8;
+  border-radius: 3px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-transform: uppercase;
+
+  transition: all 0.3s ease;
+}
+
+.skills-grid > div > .skill-icon:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px 0.5px #656565;
+}
+
+.skills-grid > div .languages p:hover {
+  background-color: rgba(32, 31, 31, 0.5);
+}
