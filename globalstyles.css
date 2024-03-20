@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   font-family: Galdeano, sans-serif;
+  scroll-behavior: smooth;
 }
 
 /* Declaring Variables */

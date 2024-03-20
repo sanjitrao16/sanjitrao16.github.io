@@ -1,0 +1,151 @@
+@media screen and (max-width: 1280px) {
+  header a .logo {
+    width: 13vw;
+    height: 3.76vw;
+    right: 0;
+  }
+
+  header nav {
+    left: 0;
+  }
+
+  header nav ul li a {
+    font-size: 14px;
+  }
+
+  header .navbar-cta {
+    position: relative;
+    left: 0;
+    font-size: 15px;
+  }
+
+  .hero {
+    height: 40vw;
+    background-size: cover;
+    background-size: 100%;
+  }
+
+  .hero .profile-content img {
+    left: 25.41px;
+    top: 35.56px;
+    width: 30vw;
+    height: 30vw;
+  }
+
+  .main-content p small {
+    font-size: 12px;
+  }
+
+  .main-content span {
+    font-size: 17px;
+  }
+
+  .main-content .hero-title {
+    font-size: 54px;
+  }
+
+  .main-content p {
+    margin-bottom: 7px;
+  }
+
+  .main-content .hero-cta,
+  .main-content .resume {
+    font-size: 14px;
+  }
+
+  .main-content .call-to-action {
+    gap: 33.5px;
+    margin-top: 27px;
+    margin-left: 23px;
+  }
+
+  .hero .social-media a img {
+    height: 22px;
+    width: 22px;
+  }
+
+  .hero .social-media {
+    gap: 24px;
+  }
+
+  section .title {
+    font-size: 27px;
+  }
+
+  .skills .skills-grid {
+    height: 333px;
+  }
+
+  .skills-grid > div {
+    width: 25vw;
+    height: 33.95vw;
+    border-top-left-radius: 3.6vw;
+    border-bottom-right-radius: 3.6vw;
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    padding: 2.368vw;
+  }
+
+  .front-end .skill-icon .icon {
+    height: 47px;
+    width: 32px;
+  }
+
+  .back-end .skill-icon img,
+  .database .skill-icon img {
+    height: 33.5px;
+    width: 33.5px;
+  }
+
+  .skills-grid > div > .skill-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .skills-grid > div .subtitle {
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin: 15px;
+  }
+
+  .skills-grid > div .languages p {
+    margin: 15px 0;
+    font-size: 14px;
+    right: 30px;
+  }
+
+  .what-i-do {
+    height: 60.65vw;
+  }
+
+  .wid-grid > div {
+    width: 30vw;
+    height: 33.95vw;
+    border-radius: 2.625vw;
+  }
+
+  div > .icon-bg {
+    width: 6.69vw;
+    height: 6.69vw;
+    left: 38.4%;
+  }
+
+  div > .icon-bg img {
+    width: 3.6vw;
+    height: 3.6vw;
+  }
+
+  .about-section .about-grid .about-content {
+    font-size: 14px;
+    line-height: 1.55;
+  }
+
+  footer {
+    height: 200px;
+  }
+
+  footer div:nth-child(1) img {
+    width: 13vw;
+    height: 3.76vw;
+  }
+}
