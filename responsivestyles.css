@@ -379,19 +379,20 @@
   }
 
   .what-i-do {
-    height: 1300px;
+    height: 1800px;
   }
 
   .what-i-do .wid-grid {
     flex-direction: column;
     gap: 16.6667vw;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
+    height: 100%;
   }
 
   .wid-grid .card {
     width: 72.91667vw;
-    height: 600px;
+    height: 450px;
     padding: 6.6667vw;
     border-radius: 3.125vw;
   }
@@ -400,6 +401,7 @@
     width: 14.583vw;
     height: 14.583vw;
     left: 40%;
+    top: -35px;
   }
 
   div > .icon-bg img {
@@ -455,7 +457,7 @@
   }
 
   .about-section {
-    height: 2000px;
+    height: 1650px;
   }
 
   .about-section .about-grid {
