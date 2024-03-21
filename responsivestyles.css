@@ -252,7 +252,7 @@
   }
 
   nav ul li a {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   header input {
@@ -293,6 +293,7 @@
 
   header input:checked ~ nav {
     display: block;
+    font-size: 20px;
   }
 
   .hero .social-media {
