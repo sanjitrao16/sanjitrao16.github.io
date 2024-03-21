@@ -343,24 +343,31 @@
   }
 
   .skills {
-    height: 1300px;
+    height: 1675px;
   }
 
   .skills .skills-grid {
     flex-direction: column;
-    gap: 6.6667vw;
-    justify-content: space-between;
+    gap: 3.6667vw;
+    justify-content: flex-start;
     align-items: center;
+    height: 100%;
   }
 
   .skills-grid > div {
-    width: 62.5vw;
-    height: 500px;
+    width: 63.5vw;
+    height: 450px;
+
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
   }
 
   .skills-grid > div > .skill-icon {
     width: 12.5vw;
     height: 12.5vw;
+    margin-top: 1rem;
   }
 
   .skills-grid > div .subtitle {
@@ -472,7 +479,7 @@
 
   .contactme-section form label {
     font-size: 16px;
-    margin-left: 1rem;
+    margin-left: 1.5rem;
   }
 
   .contactme-section form input,
@@ -487,7 +494,7 @@
   }
 
   footer {
-    height: 33.25vw;
+    height: 36.25vw;
   }
 
   footer div img[alt="Logo"] {
