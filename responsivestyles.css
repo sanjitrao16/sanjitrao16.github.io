@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1280px) {
+@media screen and (max-width: 1280px) {
   header a .logo {
     width: 13vw;
     height: 3.76vw;
@@ -70,6 +70,11 @@
 
   section .title {
     font-size: 27px;
+    margin-bottom: 70px;
+  }
+
+  .skills {
+    height: 53.81vw;
   }
 
   .skills .skills-grid {
@@ -135,9 +140,71 @@
     height: 3.6vw;
   }
 
-  .about-section .about-grid .about-content {
+  .one {
+    height: 68.98vw;
+  }
+
+  .two {
+    height: 57.5vw;
+  }
+
+  .project-section > .project {
+    margin-bottom: 80px;
+  }
+
+  .project-section > .project > .project-image {
+    width: 19.03vw;
+    height: 19.03vw;
+  }
+
+  .project-section > .project > .project-content {
+    width: 45%;
+  }
+
+  .project-section > .project > .project-content .subtitle {
+    font-size: 21px;
+  }
+
+  .project-section > .project > .project-content .body {
     font-size: 14px;
+  }
+
+  .project-section > .project > .project-content > a {
+    font-size: 15px;
+    padding: 0.5rem 0.75rem;
+    border-radius: 3px;
+  }
+
+  .about-section {
+    height: 82vw;
+  }
+
+  .about-section .about-grid .about-content {
+    font-size: 15px;
     line-height: 1.55;
+    width: 70%;
+  }
+
+  .about-section .about-grid .about-profile {
+    width: 27.56vw;
+    height: 35.43vw;
+  }
+
+  .about-section .education {
+    margin: 25px 30px 0;
+  }
+
+  .about-section .education table caption {
+    font-size: 20px;
+  }
+
+  .about-section .education table {
+    font-size: 18px;
+  }
+
+  .about-section .education table th,
+  .about-section .education table td {
+    padding: 10px;
   }
 
   footer {
@@ -147,5 +214,272 @@
   footer div:nth-child(1) img {
     width: 13vw;
     height: 3.76vw;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header {
+    height: 16.564vw;
+  }
+
+  header a .logo {
+    height: 12.5vw;
+    width: 20.833vw;
+  }
+
+  header nav,
+  header .navbar-cta {
+    display: none;
+  }
+
+  header nav {
+    position: absolute;
+    right: 79.16vw;
+    top: 0px;
+    padding-top: 7.708vw;
+    padding-bottom: 7.708vw;
+    border-radius: 10px;
+    background-color: #151618;
+  }
+
+  header nav ul {
+    flex-direction: column;
+    gap: 10.416vw;
+  }
+
+  header input {
+    position: absolute;
+    left: 2.1667vw;
+  }
+
+  header label {
+    display: inline-block;
+    position: absolute;
+    left: 5.1667vw;
+    filter: invert(1);
+  }
+
+  header label .before-checked {
+    width: 4.1667vw;
+    height: 4.1667vw;
+  }
+
+  header label .after-checked {
+    display: none;
+    width: 4.1667vw;
+    height: 4.1667vw;
+  }
+
+  header input:checked ~ label {
+    top: 2.083vw;
+    left: 22.1667vw;
+  }
+
+  header input:checked ~ label img[class="before-checked"] {
+    display: none;
+  }
+
+  header input:checked ~ label img[class="after-checked"] {
+    display: block;
+  }
+
+  header input:checked ~ nav {
+    display: block;
+  }
+
+  .hero .social-media {
+    display: none;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    background-image: url(Assets/Images/Mobile\ background.png);
+    background-position: top;
+    background-attachment: scroll;
+    height: 750px;
+    background-color: #151618;
+  }
+
+  .hero .profile-content {
+    place-self: center;
+  }
+
+  .hero .profile-content img {
+    height: 400px;
+    width: 400px;
+    top: 1.041vw;
+    left: 0;
+  }
+
+  .hero .main-content {
+    place-self: center;
+    position: relative;
+    top: -20px;
+  }
+
+  .main-content p small {
+    font-size: 12px;
+  }
+
+  .main-content p {
+    text-align: center;
+  }
+
+  .main-content .call-to-action {
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0px;
+    margin-top: 8.333vw;
+    gap: 4.1667vw;
+  }
+
+  section .title {
+    font-size: 24px;
+    margin-bottom: 16.6667vw;
+  }
+
+  .skills {
+    height: 1300px;
+  }
+
+  .skills .skills-grid {
+    flex-direction: column;
+    gap: 6.6667vw;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .skills-grid > div {
+    width: 62.5vw;
+    height: 500px;
+  }
+
+  .skills-grid > div > .skill-icon {
+    width: 12.5vw;
+    height: 12.5vw;
+  }
+
+  .skills-grid > div .subtitle {
+    margin: 6.6677vw 0;
+  }
+
+  .what-i-do {
+    height: 1300px;
+  }
+
+  .what-i-do .wid-grid {
+    flex-direction: column;
+    gap: 16.6667vw;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .wid-grid .card {
+    width: 72.91667vw;
+    height: 600px;
+    padding: 6.6667vw;
+    border-radius: 3.125vw;
+  }
+
+  div > .icon-bg {
+    width: 14.583vw;
+    height: 14.583vw;
+    left: 40%;
+  }
+
+  div > .icon-bg img {
+    width: 7.2916vw;
+    height: 7.2916vw;
+  }
+
+  .wid-grid > div > .subtitle {
+    margin-top: 4.1667vw;
+    font-size: 20px;
+  }
+
+  .wid-grid > div > .body {
+    margin: 1.6667vw;
+    font-size: 16px;
+  }
+
+  .one {
+    height: 1400px;
+  }
+
+  .two {
+    height: 1350px;
+  }
+
+  .project-section > .project,
+  .project-section #two,
+  .project-section #four {
+    flex-direction: column;
+    align-items: center;
+    gap: 12.5vw;
+  }
+
+  .project-section > .project > .project-image {
+    width: 52.083vw;
+    height: 52.083vw;
+  }
+
+  .project-section > .project > .project-content {
+    width: 62.5vw;
+  }
+
+  .project-section > .project > .project-content .subtitle {
+    margin-bottom: 2.9167vw;
+  }
+
+  .project-section > .project > .project-content > a {
+    width: 100%;
+    margin-top: 3.33vw;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .about-section {
+    height: 1700px;
+  }
+
+  .about-section .about-grid {
+    flex-direction: column-reverse;
+  }
+
+  .about-section .about-grid .about-profile {
+    width: 62.5vw;
+    height: 83.33vw;
+  }
+
+  .about-section .about-grid .about-content {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .about-section .education table {
+    font-size: 16px;
+  }
+
+  .contactme-section form label {
+    font-size: 16px;
+  }
+
+  .contactme-section form input,
+  .contactme-section form textarea {
+    font-size: 14px;
+  }
+
+  .contactme-section form button {
+    font-size: 14px;
+  }
+
+  footer {
+    height: 31.25vw;
+  }
+
+  footer div img[alt="Logo"] {
+    height: 8.33vw;
+    width: 20.833vw;
   }
 }

@@ -20,8 +20,15 @@ nav ul li {
 }
 
 nav ul li a {
-  font-family: Encode Sans Condensed, sans-serif;
+  font-family:
+    Encode Sans Condensed,
+    sans-serif;
   font-weight: 300;
+}
+
+header input,
+header label {
+  display: none;
 }
 
 header nav {
@@ -38,7 +45,9 @@ header nav ul {
 header .navbar-cta {
   position: relative;
   right: 110px;
-  font-family: Encode Sans Condensed, sans-serif;
+  font-family:
+    Encode Sans Condensed,
+    sans-serif;
   font-weight: 600;
   padding: 0.5rem 1rem;
   background-color: var(--accent-color-1);

@@ -2,7 +2,7 @@
   background-image: url(Assets/Images/Background-2.jpg);
   background-size: cover;
   background-position: left center;
-  height: 770px;
+  height: 820px;
 }
 
 .skills .title {
@@ -53,7 +53,9 @@
   margin: 1.5rem 0rem;
   font-weight: 600;
   letter-spacing: 2px;
-  font-family: Hammersmith One, Galdeano;
+  font-family:
+    Hammersmith One,
+    Galdeano;
   text-align: center;
   font-size: 24px;
   color: #e8e8e8;

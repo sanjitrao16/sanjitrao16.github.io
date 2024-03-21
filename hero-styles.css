@@ -127,3 +127,13 @@
 .hero .main-content p small::selection {
   background-color: black;
 }
+
+@keyframes scaling {
+  from {
+    transform: scale(0);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
