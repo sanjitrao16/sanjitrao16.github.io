@@ -218,6 +218,10 @@
 }
 
 @media screen and (max-width: 500px) {
+  ::-webkit-scrollbar {
+    width: 0;
+  }
+
   header {
     height: 16.564vw;
   }
@@ -440,7 +444,7 @@
   }
 
   .about-section {
-    height: 1820px;
+    height: 2000px;
   }
 
   .about-section .about-grid {
@@ -457,8 +461,13 @@
     font-size: 14px;
   }
 
-  .about-section .education table {
+  .about-section .education table caption {
     font-size: 16px;
+  }
+
+  .about-section .education table th,
+  .about-section .education table tr {
+    font-size: 14px;
   }
 
   .contactme-section form label {
