@@ -352,14 +352,15 @@
 
   .skills .skills-grid {
     flex-direction: column;
-    gap: 3.6667vw;
+    gap: 5.6667vw;
     justify-content: flex-start;
     align-items: center;
     height: 100%;
   }
 
   .skills-grid > div {
-    width: 63.5vw;
+    width: 69.5vw;
+    width: 80%;
     height: 450px;
 
     border-top-left-radius: 50px;
@@ -457,7 +458,7 @@
   }
 
   .about-section {
-    height: 1650px;
+    height: 333%;
   }
 
   .about-section .about-grid {
