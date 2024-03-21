@@ -217,7 +217,7 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   header {
     height: 16.564vw;
   }
@@ -440,7 +440,7 @@
   }
 
   .about-section {
-    height: 1700px;
+    height: 1820px;
   }
 
   .about-section .about-grid {
@@ -463,11 +463,14 @@
 
   .contactme-section form label {
     font-size: 16px;
+    margin-left: 1rem;
   }
 
   .contactme-section form input,
   .contactme-section form textarea {
     font-size: 14px;
+    margin-left: 1rem;
+    width: 80%;
   }
 
   .contactme-section form button {
@@ -475,7 +478,7 @@
   }
 
   footer {
-    height: 31.25vw;
+    height: 33.25vw;
   }
 
   footer div img[alt="Logo"] {
