@@ -6,7 +6,7 @@
     rgba(58, 54, 54, 0.19)
   );
 
-  height: 1250px;
+  height: 1350px;
 }
 .about-section .about-grid {
   display: flex;
@@ -42,7 +42,9 @@
 .about-section .education table caption {
   margin-bottom: 15px;
   font-size: 24px;
-  font-family: Hammersmith One, Galdeano;
+  font-family:
+    Hammersmith One,
+    Galdeano;
   text-transform: uppercase;
 }
 
