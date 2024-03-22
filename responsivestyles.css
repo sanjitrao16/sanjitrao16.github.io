@@ -218,10 +218,6 @@
 }
 
 @media screen and (max-width: 500px) {
-  * {
-    max-width: 500px;
-    overflow-x: hidden;
-  }
   ::-webkit-scrollbar {
     width: 0;
   }
@@ -486,10 +482,6 @@
   .about-section .education table th,
   .about-section .education table tr {
     font-size: 14px;
-  }
-
-  .contactme-section form {
-    margin-left: 2rem;
   }
 
   .contactme-section form label {
