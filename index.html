@@ -43,496 +43,518 @@
   </head>
 
   <body>
-    <!-- Navigation Bar -->
+    <!-- Site Preloader -->
 
-    <header>
-      <a href=""
-        ><img
-          src="Assets/Logos/Word Mark Logo -1.svg"
-          alt="Logo"
-          class="logo"
-          width="248px"
-          height="72px"
-      /></a>
+    <div class="loader-container">
+      <div class="loader-circle circle-one"></div>
+      <div class="loader-circle circle-two"></div>
+      <div class="loader-circle circle-three"></div>
+      <div class="loader-circle circle-four"></div>
+    </div>
 
-      <!-- Navigation Links -->
+    <!-- Back-to-Top Button -->
+    <a href="#herosec" id="to-top"><img src="Assets/Icons/Top Button.svg" alt="Top" height="50px" width="50px"></a>
 
-      <input type="checkbox" id="hamburger" />
-
-      <label for="hamburger">
-        <img
-          src="Assets/Icons/Hamburger Icon-2.svg"
-          alt=""
-          height="35px"
-          width="35px"
-          class="before-checked"
-        />
-        <img
-          src="Assets/Icons/Close icon.svg"
-          alt=""
-          height="25px"
-          width="25px"
-          class="after-checked"
-        />
-      </label>
+    <section id="website-content">
+      <!-- Navigation Bar -->
+      <header>
+        <a href=""
+          ><img
+            src="Assets/Logos/Word Mark Logo -1.svg"
+            alt="Logo"
+            class="logo"
+            width="248px"
+            height="72px"
+        /></a>
+        <!-- Navigation Links -->
+        <input type="checkbox" id="hamburger" />
+        <label for="hamburger">
+          <img
+            src="Assets/Icons/Hamburger Icon-2.svg"
+            alt=""
+            height="35px"
+            width="35px"
+            class="before-checked"
+          />
+          <img
+            src="Assets/Icons/Close icon.svg"
+            alt=""
+            height="25px"
+            width="25px"
+            class="after-checked"
+          />
+        </label>
       
-      <nav>
-        <ul>
-          <li><a href="#herosec">Home</a></li>
-          <li><a href="#sksec">Skills</a></li>
-          <li><a href="#prosec">Projects</a></li>
-          <li><a href="#absec">About</a></li>
-        </ul>
-      </nav>
-
-      <!-- Call to Action -->
-      <a href="#contsec" class="navbar-cta">Get in Touch</a>
-    </header>
-
-    <!-- Hero Section -->
-
-    <section class="hero" id="herosec">
-      <!-- Profile sub-section -->
-
-      <div class="profile-content">
-        <img
-          src="Assets/Images/Hero Section Profile.png"
-          alt="Profile Picture"
-          class="profile"
-        />
-      </div>
-
-      <!-- Main sub-section -->
-
-      <div class="main-content">
-        <p><small>Hello</small></p>
-        <p class="hero-title">I'm Sanjit Rao</p>
-        <span>
-          <p>
-            A full-stack developer with<br />
-            expertise in HTML and CSS
-          </p>
-        </span>
-
-        <!-- CTA -->
-
-        <div class="call-to-action">
-          <a href="#contsec" class="hero-cta">Hire Me</a>
-          <a href="Assets/Images/Resume.jpg" class="resume" target="_blank"
-            >Resume</a
+        <nav>
+          <ul>
+            <li><a href="#herosec">Home</a></li>
+            <li><a href="#sksec">Skills</a></li>
+            <li><a href="#prosec">Projects</a></li>
+            <li><a href="#absec">About</a></li>
+          </ul>
+        </nav>
+        <!-- Call to Action -->
+        <a href="#contsec" class="navbar-cta">Get in Touch</a>
+      </header>
+      <!-- Hero Section -->
+      <section class="hero" id="herosec">
+        <!-- Profile sub-section -->
+        <div class="profile-content">
+          <img
+            src="Assets/Images/Hero Section Profile.png"
+            alt="Profile Picture"
+            class="profile"
+          />
+        </div>
+        <!-- Main sub-section -->
+        <div class="main-content">
+          <p><small>Hello</small></p>
+          <p class="hero-title">I'm Sanjit Rao</p>
+          <span>
+            <p>
+              A full-stack developer with<br />
+              expertise in HTML and CSS
+            </p>
+          </span>
+          <!-- CTA -->
+          <div class="call-to-action">
+            <a href="#contsec" class="hero-cta">Hire Me</a>
+            <a href="Assets/Images/Resume.jpg" class="resume" target="_blank"
+              >Resume</a
+            >
+          </div>
+        </div>
+        <!-- Social Media Links -->
+        <div class="social-media">
+          <a href="https://github.com/sanjitrao16" target="_blank">
+            <img
+              src="Assets/Icons/GitHub.svg"
+              alt="GitHub"
+              height="30px"
+              width="30px"
+              class="media github"
+            />
+          </a>
+          <a href="mailto: sanjitrao1605@gmail.com" target="_blank">
+            <img
+              src="Assets/Icons/Email.svg"
+              alt="Email"
+              height="30px"
+              width="30px"
+              class="media email"
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/sanjit-rao-3716702aa/"
+            target="_blank"
           >
-        </div>
-      </div>
-
-      <!-- Social Media Links -->
-
-      <div class="social-media">
-        <a href="https://github.com/sanjitrao16" target="_blank">
-          <img
-            src="Assets/Icons/GitHub.svg"
-            alt="GitHub"
-            height="30px"
-            width="30px"
-            class="media github"
-          />
-        </a>
-
-        <a href="mailto: sanjitrao1605@gmail.com" target="_blank">
-          <img
-            src="Assets/Icons/Email.svg"
-            alt="Email"
-            height="30px"
-            width="30px"
-            class="media email"
-          />
-        </a>
-
-        <a
-          href="https://www.linkedin.com/in/sanjit-rao-3716702aa/"
-          target="_blank"
-        >
-          <img
-            src="Assets/Icons/Linkedin.svg"
-            alt="LinkedIn"
-            height="30px"
-            width="30px"
-            class="media linkedin"
-          />
-        </a>
-      </div>
-    </section>
-
-    <!-- Skills Section -->
-
-    <section class="skills" id="sksec">
-      <p class="title">Skills</p>
-
-      <div class="skills-grid">
-        <!-- Front End Card -->
-
-        <div class="front-end">
-          <div class="skill-icon">
             <img
-              src="Assets/Icons/Web Design Icon.svg"
-              alt="Front-end"
-              class="icon"
-              height="70px"
-              width="45px"
+              src="Assets/Icons/Linkedin.svg"
+              alt="LinkedIn"
+              height="30px"
+              width="30px"
+              class="media linkedin"
             />
-          </div>
-
-          <p class="subtitle">Front-end</p>
-
-          <div class="languages">
-            <p>HTML</p>
-            <p>CSS</p>
-            <p>JavaScript</p>
-            <p>React</p>
-            <p>Tailwind CSS</p>
-          </div>
-        </div>
-
-        <!-- Back End Card-->
-
-        <div class="back-end">
-          <div class="skill-icon">
-            <img
-              src="Assets/Icons/Coding Icon.svg"
-              alt="Back-end"
-              height="50px"
-              width="50px"
-            />
-          </div>
-
-          <p class="subtitle">Back-end</p>
-
-          <div class="languages">
-            <p>Python</p>
-            <p>Node JS</p>
-            <p>Java</p>
-          </div>
-        </div>
-
-        <!-- Database Card -->
-
-        <div class="database">
-          <div class="skill-icon">
-            <img
-              src="Assets/Icons/Database Icon.svg"
-              alt="Database"
-              height="50px"
-              width="50px"
-            />
-          </div>
-
-          <p class="subtitle">Database</p>
-
-          <div class="languages">
-            <p>MYSQL</p>
-            <p>Mongo DB</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- What I Do Section -->
-
-    <section class="what-i-do" id="widsec">
-      <p class="title">What I Do</p>
-
-      <div class="wid-grid">
-        <!-- Freelancing Card -->
-
-        <div class="freelance card">
-          <div class="icon-bg">
-            <img
-              src="Assets/Icons/Freelance.svg"
-              alt="Freelance"
-              width="55px"
-              height="55px"
-            />
-          </div>
-
-          <p class="subtitle">Freelancing</p>
-
-          <p class="body">
-            Started my career as a freelancer and enjoyed doing it. Worked, on
-            numerous projects mostly with start-ups and the results were
-            fruitful.
-          </p>
-        </div>
-
-        <!-- Web Development Card -->
-
-        <div class="web-dev card">
-          <div class="icon-bg">
-            <img
-              src="Assets/Icons/Web Dev.svg"
-              alt="Web-Dev"
-              height="55px"
-              width="55px"
-            />
-          </div>
-
-          <p class="subtitle">Web Development</p>
-
-          <p class="body">
-            Web-Development is the main domain of my interest and passion for me
-            and majorly worked as a back-end developer while freelancing.
-          </p>
-        </div>
-
-        <!-- Machine Learning Card -->
-
-        <div class="AI card">
-          <div class="icon-bg">
-            <img
-              src="Assets/Icons/AI Icon.svg"
-              alt="ML"
-              height="55px"
-              width="55px"
-            />
-          </div>
-
-          <p class="subtitle">Machine Learning</p>
-
-          <p class="body">
-            I am also an AI enthusiast, started learning machine learning after
-            gaining enough expertise in web-development. Worked on small
-            projects by building AI models.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Projects Section -->
-    <!-- Section 1/2 -->
-    <section class="project-section one" id="prosec">
-      <p class="title">Projects</p>
-
-      <!-- First Project -->
-      <div class="project" id="one">
-        <!-- Project Image -->
-
-        <div class="project-image">PROJECT 1</div>
-
-        <!-- Project Info -->
-        <div class="project-content">
-          <p class="subtitle">Title</p>
-
-          <p class="body">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-            facere explicabo ad, incidunt blanditiis et qui quo sunt illum alias
-            eos saepe vero dolore illo asperiores mollitia aliquid consequatur
-            at neque! Sapiente, reprehenderit? Non voluptatibus, aut recusandae
-            vitae porro ipsa!
-          </p>
-
-          <!-- Project Resource -->
-          <a href="">
-            <p class="link">Project Link</p>
           </a>
         </div>
-      </div>
-
-      <!-- Second Project -->
-      <div class="project" id="two">
-        <!-- Project Image -->
-
-        <div class="project-image">PROJECT 2</div>
-
-        <!-- Project Info -->
-        <div class="project-content">
-          <p class="subtitle">Title</p>
-
-          <p class="body">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-            facere explicabo ad, incidunt blanditiis et qui quo sunt illum alias
-            eos saepe vero dolore illo asperiores mollitia aliquid consequatur
-            at neque! Sapiente, reprehenderit? Non voluptatibus, aut recusandae
-            vitae porro ipsa!
-          </p>
-
-          <!-- Project Resource -->
-          <a href="">
-            <p class="link">Project Link</p>
-          </a>
+      </section>
+      <!-- Skills Section -->
+      <section class="skills" id="sksec">
+        <p class="title">Skills</p>
+        <div class="skills-grid">
+          <!-- Front End Card -->
+          <div class="front-end">
+            <div class="skill-icon">
+              <img
+                src="Assets/Icons/Web Design Icon.svg"
+                alt="Front-end"
+                class="icon"
+                height="70px"
+                width="45px"
+              />
+            </div>
+            <p class="subtitle">Front-end</p>
+            <div class="languages">
+              <p>HTML</p>
+              <p>CSS</p>
+              <p>JavaScript</p>
+              <p>React</p>
+              <p>Tailwind CSS</p>
+            </div>
+          </div>
+          <!-- Back End Card-->
+          <div class="back-end">
+            <div class="skill-icon">
+              <img
+                src="Assets/Icons/Coding Icon.svg"
+                alt="Back-end"
+                height="50px"
+                width="50px"
+              />
+            </div>
+            <p class="subtitle">Back-end</p>
+            <div class="languages">
+              <p>Python</p>
+              <p>Node JS</p>
+              <p>Java</p>
+            </div>
+          </div>
+          <!-- Database Card -->
+          <div class="database">
+            <div class="skill-icon">
+              <img
+                src="Assets/Icons/Database Icon.svg"
+                alt="Database"
+                height="50px"
+                width="50px"
+              />
+            </div>
+            <p class="subtitle">Database</p>
+            <div class="languages">
+              <p>MYSQL</p>
+              <p>Mongo DB</p>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
-
-    <!-- Section 2/2 -->
-
-    <section class="project-section two">
-      <!-- Third Project -->
-
-      <div class="project" id="three">
-        <!-- Project Image -->
-
-        <div class="project-image">PROJECT 3</div>
-
-        <!-- Project Info -->
-        <div class="project-content">
-          <p class="subtitle">Title</p>
-
-          <p class="body">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-            facere explicabo ad, incidunt blanditiis et qui quo sunt illum alias
-            eos saepe vero dolore illo asperiores mollitia aliquid consequatur
-            at neque! Sapiente,reprehenderit? Non voluptatibus, aut recusandae
-            vitae porro ipsa!
-          </p>
-
-          <!-- Project Resource -->
-          <a href="">
-            <p class="link">Project Link</p>
-          </a>
+      </section>
+      <!-- What I Do Section -->
+      <section class="what-i-do" id="widsec">
+        <p class="title">What I Do</p>
+        <div class="wid-grid">
+          <!-- Freelancing Card -->
+          <div class="freelance card">
+            <div class="icon-bg">
+              <img
+                src="Assets/Icons/Freelance.svg"
+                alt="Freelance"
+                width="55px"
+                height="55px"
+              />
+            </div>
+            <p class="subtitle">Freelancing</p>
+            <p class="body">
+              Started my career as a freelancer and enjoyed doing it. Worked, on
+              numerous projects mostly with start-ups and the results were
+              fruitful.
+            </p>
+          </div>
+          <!-- Web Development Card -->
+          <div class="web-dev card">
+            <div class="icon-bg">
+              <img
+                src="Assets/Icons/Web Dev.svg"
+                alt="Web-Dev"
+                height="55px"
+                width="55px"
+              />
+            </div>
+            <p class="subtitle">Web Development</p>
+            <p class="body">
+              Web-Development is the main domain of my interest and passion for me
+              and majorly worked as a back-end developer while freelancing.
+            </p>
+          </div>
+          <!-- Machine Learning Card -->
+          <div class="AI card">
+            <div class="icon-bg">
+              <img
+                src="Assets/Icons/AI Icon.svg"
+                alt="ML"
+                height="55px"
+                width="55px"
+              />
+            </div>
+            <p class="subtitle">Machine Learning</p>
+            <p class="body">
+              I am also an AI enthusiast, started learning machine learning after
+              gaining enough expertise in web-development. Worked on small
+              projects by building AI models.
+            </p>
+          </div>
         </div>
-      </div>
-
-      <!-- Fourth Project -->
-      <div class="project" id="four">
-        <!-- Project Image -->
-
-        <div class="project-image">PROJECT 4</div>
-
-        <!-- Project Info -->
-        <div class="project-content">
-          <p class="subtitle">Title</p>
-
-          <p class="body">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-            facere explicabo ad, incidunt blanditiis et qui quo sunt illum alias
-            eos saepe vero dolore illo asperiores mollitia aliquid consequatur
-            at neque! Sapiente, reprehenderit? Non voluptatibus, aut recusandae
-            vitae porro ipsa!
-          </p>
-
-          <!-- Project Resource -->
-          <a href="">
-            <p class="link">Project Link</p>
-          </a>
+      </section>
+      <!-- Projects Section -->
+      <!-- Section 1/2 -->
+      <section class="project-section one" id="prosec">
+        <p class="title">Projects</p>
+        <!-- First Project -->
+        <div class="project" id="one">
+          <!-- Project Image -->
+          <div class="project-image" id="p-image-one">PROJECT 1
+            <a href="#" onclick="previousProject(document.getElementById('p-image-one'))"><img src="Assets/Icons/Left Circled Arrow.svg" alt="LeftArrow" width="40px" height="40px" class="toggle-btn" id="previous"></a>
+            <a href="#" onclick="nextProject(document.getElementById('p-image-one'))"><img src="Assets/Icons/Right Circled Arrow.svg" alt="RightArrow" width="27px" height="27px" class="toggle-btn" id="next"></a>
+          </div>
+          <!-- Project Info -->
+          <div class="project-content">
+            <p class="subtitle">Title</p>
+            <p class="body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+              facere explicabo ad, incidunt blanditiis et qui quo sunt illum alias
+              eos saepe vero dolore illo asperiores mollitia aliquid consequatur
+              at neque! Sapiente, reprehenderit? Non voluptatibus, aut recusandae
+              vitae porro ipsa!
+            </p>
+            <!-- Project Resource -->
+            <a href="">
+              <p class="link">Project Link</p>
+            </a>
+          </div>
         </div>
-      </div>
-    </section>
-
-    <!-- About Section -->
-
-    <section class="about-section" id="absec">
-      <p class="title">About Me</p>
-
-      <div class="about-grid">
-        <div class="about-content">
-          Hello, I am Sanjit Rao hailing from the beautiful coastal city of Pondicherry, India. Right from my high school the fever
-          of computer science has took over me and I got so interested in that subject. It all started when I started to learn photo-editing
-          and video-editing, that's because I had a keen interest in photography and videography and was eager to learn the post-production
-          process and at the same time create some fascinating and stunning designs/edits. <br> <br> Gradually and steadily I was pulled towards computer
-          science and the world of coding which made me choose Computer Science in my 11th grade. With the world of computer science introduced
-          infront of my eyes, about the various technologies, the back-end magic and stuff, this made the bond even more stronger and here I am
-          after 3 years of following my passion and dream in the art of full-stack development, where I enjoyed every bit of it
-          from creating visually appealing front-end designs to a logic driven back-end programs thus creating multiple projects which has allowed
-          me to also work efficiently for different companies as a freelancer. <br> <br> The passion and interest not only stops till this as the
-          revolution of AI and Machine Learning also fascinated me and encouraged me to expand my field of expertise. Well, Sanjit Rao is not only a
-          tech guy but also a sports lover and continues to explore the world of photography.
+        <!-- Second Project -->
+        <div class="project" id="two">
+          <!-- Project Image -->
+          <div class="project-image">PROJECT 2</div>
+          <!-- Project Info -->
+          <div class="project-content">
+            <p class="subtitle">Title</p>
+            <p class="body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+              facere explicabo ad, incidunt blanditiis et qui quo sunt illum alias
+              eos saepe vero dolore illo asperiores mollitia aliquid consequatur
+              at neque! Sapiente, reprehenderit? Non voluptatibus, aut recusandae
+              vitae porro ipsa!
+            </p>
+            <!-- Project Resource -->
+            <a href="">
+              <p class="link">Project Link</p>
+            </a>
+          </div>
         </div>
-
-        <div class="about-profile"></div>
-      </div>
-
-      <div class="education">
-        <table>
-          <caption>Education Qualification</caption>
-
-          <thead>
-            <th>Qualification</th>
-            <th>School/College name</th>
-            <th>Percentage/CGPA</th>
-          </thead>
-          
-          <tbody>
-            <tr>
-              <td>B.Tech in CSE</td>
-              <td>Amrita Vishwa Vidyapeetham, Chennai</td>
-              <td>8.79</td>
-            </tr>
-
-            <tr>
-              <td>Senior Higher Secondary</td>
-              <td>The Study Lecole Internationale, Puducherry</td>
-              <td>95.6%</td>
-            </tr>
-
-            <tr>
-              <td>Higher Secondary</td>
-              <td>Achariya Siksha Mandir, Puducherry</td>
-              <td>89%</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
-
-    <!-- Contact Me Section -->
-
-    <section class="contactme-section" id="contsec">
-      <p class="title">Contact Me</p>
-
-      <!-- Contact Form -->
-      <form action="#" method="post">
+      </section>
+      <!-- Section 2/2 -->
+      <section class="project-section two">
+        <!-- Third Project -->
+        <div class="project" id="three">
+          <!-- Project Image -->
+          <div class="project-image">PROJECT 3</div>
+          <!-- Project Info -->
+          <div class="project-content">
+            <p class="subtitle">Title</p>
+            <p class="body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+              facere explicabo ad, incidunt blanditiis et qui quo sunt illum alias
+              eos saepe vero dolore illo asperiores mollitia aliquid consequatur
+              at neque! Sapiente,reprehenderit? Non voluptatibus, aut recusandae
+              vitae porro ipsa!
+            </p>
+            <!-- Project Resource -->
+            <a href="">
+              <p class="link">Project Link</p>
+            </a>
+          </div>
+        </div>
+        <!-- Fourth Project -->
+        <div class="project" id="four">
+          <!-- Project Image -->
+          <div class="project-image">PROJECT 4</div>
+          <!-- Project Info -->
+          <div class="project-content">
+            <p class="subtitle">Title</p>
+            <p class="body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+              facere explicabo ad, incidunt blanditiis et qui quo sunt illum alias
+              eos saepe vero dolore illo asperiores mollitia aliquid consequatur
+              at neque! Sapiente, reprehenderit? Non voluptatibus, aut recusandae
+              vitae porro ipsa!
+            </p>
+            <!-- Project Resource -->
+            <a href="">
+              <p class="link">Project Link</p>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- About Section -->
+      <section class="about-section" id="absec">
+        <p class="title">About Me</p>
+        <div class="about-grid">
+          <div class="about-content">
+            Hello, I am Sanjit Rao hailing from the beautiful coastal city of Pondicherry, India. Right from my high school the fever
+            of computer science has took over me and I got so interested in that subject. It all started when I started to learn photo-editing
+            and video-editing, that's because I had a keen interest in photography and videography and was eager to learn the post-production
+            process and at the same time create some fascinating and stunning designs/edits. <br> <br> Gradually and steadily I was pulled towards computer
+            science and the world of coding which made me choose Computer Science in my 11th grade. With the world of computer science introduced
+            infront of my eyes, about the various technologies, the back-end magic and stuff, this made the bond even more stronger and here I am
+            after 3 years of following my passion and dream in the art of full-stack development, where I enjoyed every bit of it
+            from creating visually appealing front-end designs to a logic driven back-end programs thus creating multiple projects which has allowed
+            me to also work efficiently for different companies as a freelancer. <br> <br> The passion and interest not only stops till this as the
+            revolution of AI and Machine Learning also fascinated me and encouraged me to expand my field of expertise. Well, Sanjit Rao is not only a
+            tech guy but also a sports lover and continues to explore the world of photography.
+          </div>
+          <div class="about-profile"></div>
+        </div>
+        <div class="education">
+          <table>
+            <caption>Education Qualification</caption>
+            <thead>
+              <th>Qualification</th>
+              <th>School/College name</th>
+              <th>Percentage/CGPA</th>
+            </thead>
+      
+            <tbody>
+              <tr>
+                <td>B.Tech in CSE</td>
+                <td>Amrita Vishwa Vidyapeetham, Chennai</td>
+                <td>8.79</td>
+              </tr>
+              <tr>
+                <td>Senior Higher Secondary</td>
+                <td>The Study Lecole Internationale, Puducherry</td>
+                <td>95.6%</td>
+              </tr>
+              <tr>
+                <td>Higher Secondary</td>
+                <td>Achariya Siksha Mandir, Puducherry</td>
+                <td>89%</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+      <!-- Contact Me Section -->
+      <section class="contactme-section" id="contsec">
+        <p class="title">Contact Me</p>
+        <!-- Contact Form -->
+        <form action="#" method="post">
+          <div>
+            <label for="contact-name">Name</label>
+            <input
+              type="text"
+              name="contact-name"
+              id="contact-name"
+              placeholder="Your Name"
+              required
+              onchange="checkName()"
+              oninput="resetNameStyles()"
+            />
+          </div>
+          <div>
+            <label for="contact-email">Email Address</label>
+            <input
+              type="email"
+              name="contact-email"
+              id="contact-email"
+              placeholder="Your Email"
+              required
+              onchange="checkEmail()"
+              oninput="resetEmailStyles()"
+            />
+          </div>
+          <div>
+            <label for="contact-message">Message</label>
+            <textarea
+              name="contact-message"
+              id="contact-message"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+          <div><button>Submit</button></div>
+        </form>
+      </section>
+      <!-- Footer -->
+      <footer>
         <div>
-          <label for="contact-name">Name</label>
-          <input
-            type="text"
-            name="contact-name"
-            id="contact-name"
-            placeholder="Your Name"
+          <img
+            src="Assets/Logos/Word Mark Logo -1.svg"
+            alt="Logo"
+            width="186px"
+            height="54px"
           />
         </div>
-
-        <div>
-          <label for="contact-email">Email Address</label>
-          <input
-            type="email"
-            name="contact-email"
-            id="contact-email"
-            placeholder="Your Email"
-          />
+        <div class="media">
+          <a href="https://github.com/sanjitrao16" target="_blank"><img src="Assets/Icons/GitHub.svg" alt="GitHub" width="25px" height="25px"/></a>
+          <a href="mailto: sanjitrao1605@gmail.com" target="_blank"><img src="Assets/Icons/Linkedin.svg" alt="LinkedIn" width="25px" height="25px"/></a>
+          <a href="https://www.linkedin.com/in/sanjit-rao-3716702aa/" target="_blank"><img src="Assets/Icons/Email.svg" alt="Email" width="25px" height="25px"/></a>
         </div>
-
-        <div>
-          <label for="contact-message">Message</label>
-          <textarea
-            name="contact-message"
-            id="contact-message"
-            cols="30"
-            rows="10"
-          ></textarea>
+        <div class="copyrights">
+          <p>Copyrights <span>&#169</span> Sanjit Rao. All Rights Reserved.</p>
         </div>
-
-        <div><button>Submit</button></div>
-      </form>
+      </footer>
     </section>
 
-    <!-- Footer -->
-    <footer>
-      <div>
-        <img
-          src="Assets/Logos/Word Mark Logo -1.svg"
-          alt="Logo"
-          width="186px"
-          height="54px"
-        />
-      </div>
+    <script>
+      const loaderContainer = document.querySelector(".loader-container");
+      window.addEventListener("load", function () {
+      loaderContainer.style.display = "none";
+      });
 
-      <div class="media">
-        <a href="https://github.com/sanjitrao16" target="_blank"><img src="Assets/Icons/GitHub.svg" alt="GitHub" width="25px" height="25px"/></a>
-        <a href="mailto: sanjitrao1605@gmail.com" target="_blank"><img src="Assets/Icons/Linkedin.svg" alt="LinkedIn" width="25px" height="25px"/></a>
-        <a href="https://www.linkedin.com/in/sanjit-rao-3716702aa/" target="_blank"><img src="Assets/Icons/Email.svg" alt="Email" width="25px" height="25px"/></a>
-      </div>
+      function checkName() {
+        let name_id = document.getElementById("contact-name");
+        let name_val = name_id.value;
 
-      <div class="copyrights">
-        <p>Copyrights <span>&#169</span> Sanjit Rao. All Rights Reserved.</p>
-      </div>
-    </footer>
+        let regex = /^[a-zA-Z]+$/;
+
+        if (!name_val.match(regex)) {
+          name_id.value = "Enter a valid name";
+          name_id.style.color = "red";
+          name_id.style.border = "2px solid red";
+        } else if (name_val.length > 25) {
+          name_id.value = "name should be less than 25 characters";
+          name_id.style.color = "red";
+          name_id.style.border = "2px solid red";
+        } else {
+          name_id.style.color = "black";
+          name_id.style.border = "1px solid black";
+        }
+      }
+
+      function resetNameStyles() {
+        let name_id = document.getElementById("contact-name");
+        name_id.style.color = "black";
+      }
+
+      function checkEmail() {
+        let email_id = document.getElementById("contact-email");
+        let email_val = email_id.value;
+
+        if (!email_val.match(/^\S+@\S+\.\S+$/)) {
+          email_id.value= "Enter a valid email";
+          email_id.style.color = 'red';
+          email_id.style.border = "2px solid red";
+        } else {
+          email_id.style.color = "black";
+          email_id.style.border = "1px solid black"
+        }
+      }
+
+      function resetEmailStyles() {
+        let email_id = document.getElementById("contact-email");
+        email_id.style.color = "black";
+      }
+
+      let click_counter = 0;
+      let max_counter = 2;
+      let colors_list = ["#b0b0b0","#ffc6c6","#fff4cd"];
+      function nextProject(image) {
+        if(click_counter!=max_counter) {
+          click_counter++;
+          image.style.backgroundColor = colors_list[click_counter];
+        }
+        else {
+          click_counter = 0;
+          image.style.backgroundColor = colors_list[click_counter];
+        }
+      }
+
+      function previousProject(image) {
+        if (click_counter!=0) {
+          click_counter--;
+          image.style.backgroundColor = colors_list[click_counter];
+        }
+      }
+
+      let topButton = document.getElementById("to-top");
+      window.addEventListener('scroll', () =>{
+        if (window.scrollY > 500 ){
+          topButton.style.display = "block";
+        }
+        else{
+        topButton.style.display= "none";
+        }
+      });
+
+    </script>
   </body>
 </html>

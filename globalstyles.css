@@ -46,3 +46,93 @@ section .title {
   margin-bottom: 120px;
   text-transform: uppercase;
 }
+
+/* Site-Preloader Styles */
+
+.loader-container {
+  position: fixed;
+  inset: 0;
+  z-index: 999;
+  background-color: #151618;
+  display: grid;
+  place-content: center;
+}
+
+.loader-circle {
+  border-radius: 50%;
+  background: linear-gradient(90deg, blue, purple);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.circle-one {
+  width: 2rem;
+  height: 2rem;
+  background: transparent;
+  border: 2px solid blueviolet;
+  opacity: 0.3;
+  animation: loaderAnimation 0.3s ease-in-out 0s forwards infinite;
+  animation-fill-mode: backwards;
+}
+
+.circle-two {
+  width: 3rem;
+  height: 3rem;
+  background: transparent;
+  border: 2px solid blueviolet;
+  left: 49.5%;
+  top: 49%;
+  opacity: 0.3;
+  animation: loaderAnimation 0.3s ease-in-out 0.05s forwards infinite;
+  animation-fill-mode: backwards;
+}
+
+.circle-three {
+  width: 4rem;
+  height: 4rem;
+  background: transparent;
+  border: 2px solid blueviolet;
+  top: 48%;
+  left: 49%;
+  opacity: 0.3;
+  animation: loaderAnimation 0.3s ease-in-out 0.1s forwards infinite;
+  animation-fill-mode: backwards;
+}
+
+.circle-four {
+  width: 5rem;
+  height: 5rem;
+  background: transparent;
+  border: 2px solid blueviolet;
+  top: 47%;
+  left: 48.5%;
+  opacity: 0.3;
+  animation: loaderAnimation 0.3s ease-in-out 0.15s forwards infinite;
+  animation-fill-mode: backwards;
+}
+
+#to-top {
+  position: fixed;
+  bottom: 16px;
+  right: 32px;
+  display: none;
+  transition: all 0.3s;
+}
+
+@keyframes loaderAnimation {
+  0% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.25);
+  }
+
+  100% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+}

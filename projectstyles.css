@@ -32,6 +32,26 @@
   justify-content: center;
   align-items: center;
   background-color: #b0b0b0;
+  position: relative;
+}
+
+#p-image-one {
+  background-color: #b0b0b0;
+}
+
+.toggle-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#previous {
+  right: 35px;
+}
+
+#next {
+  top: 6px;
+  right: 5px;
 }
 
 .project-section > .project > .project-content {
@@ -44,7 +64,9 @@
 .project-section > .project > .project-content .subtitle {
   text-align: center;
   font-size: 25px;
-  font-family: Hammersmmith One, Galdeano;
+  font-family:
+    Hammersmmith One,
+    Galdeano;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 600;
